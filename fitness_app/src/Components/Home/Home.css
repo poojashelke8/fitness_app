@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    color: white;
+    
+    
+
+}
+.home{
+    height: 650px;
+    width:100%;
+    background-color: burlywood;
+     background-image:url(C:\Users\Shree\Desktop\fitness_app\fitness_app\src\Components\Images\Home.jpg) ;
+    background-size: cover; 
+    
+
+}
+.navbar{
+    height: 70px;
+    width:100%;
+    /* background-color:#FF6000 ; */
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.navContent{
+    height:70px;
+    width:700px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#memberbtn{
+    height:40px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 9px;
+}
