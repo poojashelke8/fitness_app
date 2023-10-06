@@ -7,13 +7,19 @@ function Home(){
             < div className="navbar">
                 <h1>Suprimo</h1>
                     <div className="navContent">
-                        <a>Home</a>
-                        <a>Classes</a>
-                        <a>Team</a>
-                        <a>Blog</a>
-                        <a>About Us</a>
+                        <a href="#">Home</a>
+                        <a href="#">Classes</a>
+                        <a href="#">Team</a>
+                        <a href="#">Blog</a>
+                        <a href="#">About Us</a>
                         <button id="memberbtn">Membership Enquiry</button>
                     </div>
+            </div>
+            <div className="mainContent">
+                <h2>Train Hard</h2>
+                <h2>Train Smart</h2>
+                <h2>Train with Suprimo</h2>
+                <button id='contentBtn'>Join now</button>
             </div>
         </div>
         
