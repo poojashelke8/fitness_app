@@ -1,5 +1,8 @@
 .amenities{
     color:black;
     height:450px;
-    background-color: cadetblue;
+    /* background-color: #454545; */
+    display: flex;
+    justify-content: space-around;
+    /* background: linear-gradient(180deg, #454545, #FF6000); */
 }

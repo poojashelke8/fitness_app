@@ -1,0 +1,21 @@
+.aboutUs{
+    color: black;
+    height:645px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutText{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    margin: 100px 0 0 40px;
+}
+#aboutimg{
+    
+        width: 500px;
+        height: 500px;
+        border-radius: 0 20% 0 0;
+        margin:  30px 40px  0 0 ;
+      
+}
