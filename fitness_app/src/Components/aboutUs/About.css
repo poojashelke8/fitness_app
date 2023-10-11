@@ -4,12 +4,20 @@
     background-color: palevioletred;
     display: flex;
     justify-content: space-between;
+    /* align-items:center; */
 }
 .aboutText{
-    height: 500px;
+    height: 400px;
     width: 500px;
     background-color: pink;
-    margin: 100px 0 0 40px;
+    margin: 200px 0 0 0 ;
+
+}
+.aboutText2{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(206, 86, 106);
+    margin: 400px 0 0 40px;
 }
 #aboutimg{
     
@@ -18,4 +26,8 @@
         border-radius: 0 20% 0 0;
         margin:  30px 40px  0 0 ;
       
+}
+
+h1{
+    font-size: 100px;
 }
