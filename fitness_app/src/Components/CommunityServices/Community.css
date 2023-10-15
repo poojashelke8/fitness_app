@@ -1,4 +1,19 @@
+*{
+    /* margin: 0 auto; */
+}
 .community{
     background-color: rgb(184, 184, 248);
     height:645px;
+    /* width: 100%; */
+    display: flex;
+    justify-content:space-between;
+}
+.left{
+    background-color: rgb(71, 110, 40);
+    height:600px;
+}
+.right{
+    /* width: 50%; */
+    height: 600px;
+    background-color: rgb(175, 238, 151);
 }
