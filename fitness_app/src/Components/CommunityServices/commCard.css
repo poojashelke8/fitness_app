@@ -1,0 +1,11 @@
+.cardData {
+    height: 250px;
+    background-color: #FFA559;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.cardContent {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}

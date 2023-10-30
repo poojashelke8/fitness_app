@@ -1,17 +1,22 @@
 import React from "react";
 import './Community.css';
-import Card from "./Card";
+import CommCard from "./CommCard";
+import cardContent from "../CommunityServices/commContent.json"
 
 function Community(){
     return (
         <div className="community">
-             <div className="left">
-            <h1>Body and Soul Fitness</h1>
+            <div className="left">
+                <h1>Body and Soul fitness</h1>
             </div>
-            
             <div className="right">
-                <Card/>
-            </div> 
+            {cardContent.map((item, index) => (
+                    <CommCard title = {item.title}/>
+                ))}
+                {/* <CommCard/> */}
+            </div>
+
+            
         </div>
     )
 }
