@@ -11,7 +11,7 @@ function Community(){
             </div>
             <div className="right">
             {cardContent.map((item, index) => (
-                    <CommCard title = {item.title}/>
+                    <CommCard title = {item.title} image ={item.image_url}/>
                 ))}
                 {/* <CommCard/> */}
             </div>

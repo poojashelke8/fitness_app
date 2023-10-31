@@ -6,6 +6,7 @@ function CommCard(props) {
         <div className="cardData">
             <div className="cardContent">
                 <h2>{props.title}</h2>
+                <img src={props.image} alt={props.title} />
             </div>
         </div>
     )

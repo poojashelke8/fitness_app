@@ -1,8 +1,11 @@
 .cardData {
-    height: 250px;
+    height: 230px;
     background-color: #FFA559;
-    width: 350px;
+    width: 330px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardContent {
