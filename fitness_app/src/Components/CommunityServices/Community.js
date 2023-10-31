@@ -10,10 +10,10 @@ function Community(){
                 <h1>Body and Soul fitness</h1>
             </div>
             <div className="right">
-            {cardContent.map((item, index) => (
+            {/* {cardContent.map((item, index) => (
                     <CommCard title = {item.title} image ={item.image_url}/>
-                ))}
-                {/* <CommCard/> */}
+                ))} */}
+                <CommCard/>
             </div>
 
             

@@ -4,10 +4,14 @@ import "./commCard.css";
 function CommCard(props) {
     return (
         <div className="cardData">
-            <div className="cardContent">
-                <h2>{props.title}</h2>
+                <h2>Champion</h2>
                 <img src={props.image} alt={props.title} />
-            </div>
+                <h2>nature</h2>
+                <img src={props.image} alt={props.title} />
+           
+                <h2>educate</h2>
+                <img src={props.image} alt={props.title} />
+       
         </div>
     )
 }

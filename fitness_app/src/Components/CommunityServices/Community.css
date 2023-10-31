@@ -14,9 +14,9 @@
 .right {
     width: 60%;
     background-color: rgb(175, 238, 151);
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 20px; */
 }
