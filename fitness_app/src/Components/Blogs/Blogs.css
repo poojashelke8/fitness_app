@@ -1,0 +1,13 @@
+.blogs{
+    color: teal;
+    height:545px;
+    background-color: thistle;
+}
+
+#heading{
+    height: 150px;
+    background-color: rgb(240, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
