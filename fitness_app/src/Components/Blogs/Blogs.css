@@ -11,3 +11,72 @@
     justify-content: center;
     align-items: center;
 }
+#blogbtn{
+    color:black;
+    border:2px solid Black;
+    border-radius: 5px;
+}
+.blogcards{
+    /* height:360px; */
+    background-color: rgb(238, 236, 129);
+    display: flex;
+    justify-content: space-between;
+}
+.blogcard1{
+    height:350px;
+    width:50%;
+    background-color: chocolate;
+    background-image: url(https://img.freepik.com/free-photo/buddha-bowl-dish-with-vegetables-legumes-top-view_1150-42589.jpg?w=740&t=st=1698937600~exp=1698938200~hmac=8ca16920de52497b4f09f24ecfe81a6bdebaf5ec642f16e28d760dc32da35f8e);
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}
+
+/* .blogcard1_1{
+    display:flex;
+    /* justify-content: flex-end; */
+    /* align-items:center; */
+/* } */
+
+.blogcard1_1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+.blogcard1_1 a {
+    text-decoration: none; /* Remove the default underline */
+    color: #ece6e6; /* Set the link color */
+    font-weight: normal; /* Set the font-weight to normal */
+    transition: text-decoration 0.3s, font-weight 0.3s; /* Add a transition effect */
+}
+
+.blogcard1_1 a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    font-weight: bold; /* Make the text bold on hover */
+}
+
+
+.blogcard2{
+    height:350px;
+    width:50%;
+    background-color: rgb(240, 192, 157);
+    display: grid;
+    align-items: center;
+}
+
+.blogcard2_1{
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.blogcard2_2{
+    height: 150px;
+    background-color: rgb(131, 230, 33);
+}
+img{
+    height:300px;
+    width: 300px;
+}
