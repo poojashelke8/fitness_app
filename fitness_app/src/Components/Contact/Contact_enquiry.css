@@ -1,0 +1,18 @@
+.enquiry{
+    height:500px;
+    /* background-image: url(https://www.freepik.com/free-photo/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-strength-exercises-training-his-lower-body-wellness-healthy-lifestyle-bodybuilding-concept_15075304.htm#page=3&query=exercise&position=30&from_view=search&track=sph); */
+    background-image: url(https://images.unsplash.com/photo-1536922246289-88c42f957773?auto=format&fit=crop&q=80&w=1504&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-image: url(https://img.freepik.com/free-photo/buddha-bowl-dish-with-vegetables-legumes-top-view_1150-42589.jpg?w=740&t=st=1698937600~exp=1698938200~hmac=8ca16920de52497b4f09f24ecfe81a6bdebaf5ec642f16e28d760dc32da35f8e); */
+    background-size: cover;
+    width:100%;
+}
+
+.enquiry_form{
+    height:450px;
+    width:50%;
+    background-color: rgb(238, 221, 178);
+}
+.footer{
+    height:300px;
+    background-color: blanchedalmond;
+}

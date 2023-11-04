@@ -4,6 +4,7 @@ import Amenities from './Components/Amenities/Amenities';
 import About from './Components/aboutUs/About';
 import Community from './Components/CommunityServices/Community';
 import Blogs from './Components/Blogs/Blogs';
+import Contact_enquiry from './Components/Contact/Contact_enquiry';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Community/>
       <Blogs/>
+      <Contact_enquiry/>
     </div>
   );
 }

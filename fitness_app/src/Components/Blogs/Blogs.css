@@ -1,20 +1,26 @@
 .blogs{
     color: teal;
     height:545px;
-    background-color: thistle;
+    /* background-color: thistle; */
 }
 
 #heading{
-    height: 150px;
-    background-color: rgb(240, 185, 185);
+    height: 120px;
+    color:rgb(255, 115, 0);
+    /* background-color: rgb(240, 185, 185); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #blogbtn{
-    color:black;
-    border:2px solid Black;
-    border-radius: 5px;
+    color:white;
+    background-color:rgb(255, 115, 0);
+    border:2px solid white;
+    border-radius: 9px;
+    /* width: 120px; */
+    padding: 7px;
+    margin-left: 47%;
+    margin-top: 20px;
 }
 .blogcards{
     /* height:360px; */
@@ -25,7 +31,7 @@
 .blogcard1{
     height:350px;
     width:50%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     background-image: url(https://img.freepik.com/free-photo/buddha-bowl-dish-with-vegetables-legumes-top-view_1150-42589.jpg?w=740&t=st=1698937600~exp=1698938200~hmac=8ca16920de52497b4f09f24ecfe81a6bdebaf5ec642f16e28d760dc32da35f8e);
     background-size: cover;
     display: flex;
@@ -62,19 +68,17 @@
 .blogcard2{
     height:350px;
     width:50%;
-    background-color: rgb(240, 192, 157);
+    background-color: rgb(255, 115, 0);
     display: grid;
     align-items: center;
 }
 
 .blogcard2_1{
     height: 150px;
-    background-color: chartreuse;
 }
 
 .blogcard2_2{
     height: 150px;
-    background-color: rgb(131, 230, 33);
 }
 img{
     height:300px;
