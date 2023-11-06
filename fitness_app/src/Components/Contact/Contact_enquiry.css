@@ -8,11 +8,113 @@
 }
 
 .enquiry_form{
-    height:450px;
-    width:50%;
-    background-color: rgb(238, 221, 178);
+    height:400px;
+    width:45%;
+    background-color: rgb(255, 115, 0);
+    margin: 30px 30px;
 }
+
+.form_row1{
+    height:70px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    /* background-color: palevioletred; */
+    align-items: center;
+}
+
+#name,#email{
+    height:30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* border-radius: 15px;; */
+}
+
+
+.form_row2{
+    height:70px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    /* background-color: palevioletred; */
+    align-items: center;
+
+}
+
+#phone,#city{
+    height:30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* border-radius: 15px;; */
+}
+
+.form_row3{
+    height:80px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    /* background-color: palevioletred; */
+    align-items: center;
+
+}
+
+#message{
+    width:80%;
+    height:70px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+#send_btn{
+    height:40px;
+    /* width: 50px; */
+    color:rgb(255, 115, 0);
+    margin-left: 40%;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* background-color: palevioletred; */
+    /* align-items: center; */
+
+}
+
 .footer{
-    height:300px;
-    background-color: blanchedalmond;
+    height:250px;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_1{
+    height:200px;
+    width:300px;
+    color: black;
+    /* background-color: pink; */
+    
+    
+}
+.footer_2{
+    height:200px;
+    width:300px;
+    color: black;
+    /* background-color: pink; */
+    
+}
+#heading_f{
+    color:white;
+} 
+#contact{
+    margin-top: 30px;
+    color:white;
+}
+
+#centers{
+    /* margin-top:30px ; */
+}
+.copy_rights{
+    height:50px;
+    background-color: white;
+    color: black;
 }
