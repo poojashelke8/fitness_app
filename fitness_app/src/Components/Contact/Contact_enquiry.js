@@ -7,8 +7,8 @@ function Contact_enquiry() {
             <div className="enquiry">
                 Contact and enquiry
                 <div className="enquiry_form">
-                    WE WANT TO HEAR FROM YOU
-                    Please fill out our form and we will get in touch shortly
+                    <h3>WE WANT TO HEAR FROM YOU</h3>
+                    <h4>Please fill out our form and we will get in touch shortly</h4>
                     <form>
                         {/* <input placeholder="Name" />
                         <input placeholder="Email" /> */}
@@ -65,7 +65,7 @@ function Contact_enquiry() {
             {/* <br/> */}
 
             <div className="copy_rights">
-                copyrights
+            © Copyright Suprimo . All Rights Reserved
             </div>
         </>
     )
