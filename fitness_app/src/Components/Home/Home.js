@@ -1,5 +1,7 @@
 import React from "react"
 import './Home.css';
+import { Link } from "react-router-dom";
+import Classes from "./Classes";
 
 function Home(){
     return(
@@ -7,8 +9,10 @@ function Home(){
             < div className="navbar">
                 <h1>Suprimo</h1>
                     <div className="navContent">
-                        <a href="#">Home</a>
-                        <a href="#">Classes</a>
+                        <Link to={"/"}>Home</Link>
+                        {/* <a href="#">Home</a> */}
+                        {/* <a href="#">Classes</a> */}
+                        <Link to={"/Classes"}>Classes</Link>
                         <a href="#">Team</a>
                         <a href="#">Blog</a>
                         <a href="#">About Us</a>
