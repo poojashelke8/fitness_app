@@ -8,7 +8,7 @@ function Card(props) {
                 <h2 id="cardTitle">{props.title}</h2><br/>
                 <h3 id="cardDesc">{props.desc}</h3>
             </div>
-        </div>
+    </div>
     )
 }
 

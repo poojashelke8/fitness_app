@@ -16,7 +16,7 @@ function Home(){
                     </div>
             </div>
             <div className="mainContent">
-                <h2>Train Hard</h2>
+                <h2>Train Hard</h2> 
                 <h2>Train Smart</h2>
                 <h2>Train with Suprimo</h2>
                 <button id='contentBtn'>Join now</button>

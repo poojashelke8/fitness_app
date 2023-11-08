@@ -1,5 +1,5 @@
 .card{
-    height:350px;
+    height:200px;
     background-color:#FFA559;
     width:350px;
     margin-top:50px;
@@ -12,14 +12,14 @@
 
 #cardTitle{
     font-size: 30px;
-    margin:40px 0 0 30px;
+    margin:20px 0 0 30px;
 
 }
 
 #cardDesc{
-    height:150px;
+    height:100px;
     width:300px;
-    margin:50px 30px;
+    margin:10px 30px;
     /* background-color: azure; */
     color: white;
     font-size: 20px;
