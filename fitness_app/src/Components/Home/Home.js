@@ -9,7 +9,7 @@ function Home(){
             < div className="navbar">
                 <h1>Suprimo</h1>
                     <div className="navContent">
-                        <Link to={"/"}>Home</Link>
+                        <Link to="/">Home</Link>
                         {/* <a href="#">Home</a> */}
                         {/* <a href="#">Classes</a> */}
                         <Link to={"/Classes"}>Classes</Link>
