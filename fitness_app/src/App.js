@@ -1,8 +1,8 @@
 import './App.css';
 import Home from './Components/Home/Home';
-import Amenities from './Components/Amenities/Amenities';
+// import Amenities from './Components/Amenities/Amenities';
 import About from './Components/aboutUs/About';
-import Community from './Components/CommunityServices/Community';
+// import Community from './Components/CommunityServices/Community';
 import Blogs from './Components/Blogs/Blogs';
 import Contact_enquiry from './Components/Contact/Contact_enquiry';
 import { Route, Routes } from 'react-router-dom';
@@ -22,11 +22,12 @@ function App() {
         <Route path="blog" element={<Blogs />} />
         <Route path="about" element={<About />} />
       </Routes>
+      <Contact_enquiry />
       {/* <Amenities /> */}
-      <About />
+      {/* <About />
       <Community />
       <Blogs />
-      <Contact_enquiry />
+      <Contact_enquiry /> */}
     </div>
   );
 }
