@@ -1,9 +1,10 @@
 import React from "react";
+import './Classes.css';
 
 function Classes(){
     return (
     <>
-    <h3>Classes</h3>
+    <h3 className="Classes">Classes</h3>
     </>
     )
 }
