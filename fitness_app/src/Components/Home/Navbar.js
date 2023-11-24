@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css';
-import { NavLink, Route, Router } from 'react-router-dom';
+import { NavLink, Route, Router ,Link} from 'react-router-dom';
 import Classes from './Classes';
 
 const Navbar = () => {
@@ -10,21 +10,21 @@ const Navbar = () => {
         <h1>Suprimo</h1>
         <div className="navContent">
           <a>
-            <NavLink to="/">Home</NavLink>
+            <Link to="/">Home</Link>
           </a>
           <a>
-            <NavLink to="/Classes">Classes</NavLink>
+            <Link to="/Classes">Classes</Link>
           </a>
           <a>
-            <NavLink to="/team">Team</NavLink>
+            <Link to="/team">Team</Link>
           </a>
           <a>
-            <NavLink to="/blog">Blog</NavLink>
+            <Link to="/blog">Blog</Link>
 
           </a>
           <a>
-            <NavLink to="/about">About Us</NavLink>
-          </a>
+            <Link to="/about">About Us</Link>
+          </a> 
           <button id="memberbtn">Membership Enquiry</button>
 
         </div>

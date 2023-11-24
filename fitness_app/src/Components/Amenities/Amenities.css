@@ -1,8 +1,8 @@
 
 .amenities{
-    color:black;
+    /* color:black; */
     height:300px;
-    /* background-color: #454545; */
+    background-color:white;
     display: flex;
     justify-content: space-around;
     /* background: linear-gradient(180deg, #454545, #FF6000); */

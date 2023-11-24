@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 function Home() {
     return (
         <div className="home">
+            
             {/* <Navbar/> */}
             {/* < div className="navbar">
                 <h1>Suprimo</h1>

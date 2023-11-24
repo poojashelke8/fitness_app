@@ -1,6 +1,6 @@
 import React from "react";
 import './Community.css';
-import CommCard from "./CommCard";
+// import CommCard from "./CommCard";
 import cardContent from "../CommunityServices/commContent.json"
 
 function Community() {

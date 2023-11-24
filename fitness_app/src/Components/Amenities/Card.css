@@ -1,26 +1,28 @@
 .card{
-    height:200px;
-    background-color:#FFA559;
+    height:170px;
+    background-color:rgb(233, 95, 14);
     width:350px;
     margin-top:50px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 .cardContent{
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
+    color: black;
 }
 
 #cardTitle{
     font-size: 30px;
-    margin:20px 0 0 30px;
+    margin:0 0 0 30px;
+    color: black;
 
 }
 
 #cardDesc{
     height:100px;
     width:300px;
-    margin:10px 30px;
+    margin:8px 30px;
     /* background-color: azure; */
-    color: white;
+    color:black;
     font-size: 20px;
 }
