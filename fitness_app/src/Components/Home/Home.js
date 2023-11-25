@@ -38,6 +38,7 @@ function Home() {
          <About />
          <Community />
          <Blogs />
+         <Contact_enquiry />
         
         </>
 

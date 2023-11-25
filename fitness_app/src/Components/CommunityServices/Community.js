@@ -1,28 +1,30 @@
 import React from "react";
 import './Community.css';
 // import CommCard from "./CommCard";
-import cardContent from "../CommunityServices/commContent.json"
+import commContent from "../CommunityServices/commContent.json"
+import { Link,Route,Routes } from "react-router-dom";
+import CommPages from "./CommPages";
 
 function Community() {
+    const test1 = ["Championship", "Mindfulness", "Yoga", "Engage and educate"]
     return (
         <div className="community">
             <div className="left">
                 <h1>Body and Soul fitness</h1>
             </div>
             <div className="right">
-                <div className="rightContent">
-                    <a href="#" >Championship</a>
-                </div>
-                <div className="rightContent">
-                    <a href="#">Mindfulness</a>
-                </div>
-                <div className="rightContent">
-                    <a href="#">Yoga</a>
-                </div>
-                <div className="rightContent">
-                    <a href="#" >Engage and educate</a>
-                </div>
+                {
+                    test1.map((test) => {
+                        return (
+                            <div className="rightContent">
+                                <Link to={`community/${test}`}>{test}</Link>
+
+                            </div>
+                        )
+                    })
+                }
             </div>
+           
         </div>
     )
 }

@@ -9,6 +9,8 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Home/Navbar';
 import Classes from './Components/Home/Classes';
 import Team from './Components/Home/Team';
+import CommPages from './Components/CommunityServices/CommPages';
+
 
 
 function App() {
@@ -21,8 +23,11 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="blog" element={<Blogs />} />
         <Route path="about" element={<About />} />
+
+        <Route path="community/:testId" element={<CommPages />} />
+
       </Routes>
-      <Contact_enquiry />
+      {/* <Contact_enquiry /> */}
       {/* <Amenities /> */}
       {/* <About />
       <Community />
