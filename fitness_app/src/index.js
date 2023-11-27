@@ -4,17 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { CategoryProvider } from './Components/CommunityServices/CategoryContext';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <CategoryProvider>
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      
+        <App />
+      {/* </CategoryProvider> */}
     </React.StrictMode>
   </BrowserRouter>
+  </CategoryProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

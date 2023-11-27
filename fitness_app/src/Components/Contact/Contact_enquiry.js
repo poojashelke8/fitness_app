@@ -14,27 +14,27 @@ function Contact_enquiry() {
                         {/* <input placeholder="Name" />
                         <input placeholder="Email" /> */}
                         <div className="form_row1">
-                            <input type="text" name="name" class="form-control"
+                            <input type="text" name="name" className="form-control"
                                 id="name" placeholder="Full Name" data-rule="minlen:4"
                                 data-msg="Please enter at least 4 chars"></input>
 
-                            <input type="email" class="form-control" name="email"
+                            <input type="email" className="form-control" name="email"
                                 id="email" placeholder="Your Email" data-rule="email"
                                 data-msg="Please enter a valid email"></input>
 
                         </div>
 
                         <div className="form_row2">
-                            <input type="tel" name="phone" class="form-control"
+                            <input type="tel" name="phone" className="form-control"
                                 id="phone" placeholder="Mobile No" data-rule="minlen:10"
                                 data-msg="Please enter at least 10 chars"></input>
 
-                            <input type="text" class="form-control" placeholder="City" name="city"
+                            <input type="text" className="form-control" placeholder="City" name="city"
                                 id="city" data-rule="minlen:4" data-msg="Please enter at least 4 chars"></input>
 
                         </div>
                         <div className="form_row3">
-                            <textarea class="form-control" name="message" rows="3" id="message"
+                            <textarea className="form-control" name="message" rows="3" id="message"
                                 data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
 
                         </div>
