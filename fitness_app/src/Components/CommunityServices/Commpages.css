@@ -1,5 +1,15 @@
 .pages{
-    height:500px;
+    /* height:600px; */
     background-color: brown;
     color:black
+}
+.pageContent{
+    display: flex;
+    height:500px;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.pageImage{
+    height:400px;
+    width:400px;
 }
