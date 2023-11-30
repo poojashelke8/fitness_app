@@ -39,8 +39,8 @@ const CommPages = () => {
     console.log(item)
     return (
         <div className='pages'>
-            <h2>
-                CommPages {item.name}
+            <h2 id='pagesHead'>
+                {item.name}
             </h2>
             <div className='pageContent'>
                 <p id='content1'>{item.desc}</p>

@@ -1,17 +1,21 @@
 .pages{
     /* height:600px; */
-    background-color: brown;
-    color:black
+    color:black;
 }
 .pageContent{
     display: flex;
     height:500px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top:50px;
+}
+#pagesHead{
+    color:black;
+    margin-top: 30px;
 }
 #content1{
     /* height:400px; */
     width:400px;
+    color:black;
 
 }
 #content2{
