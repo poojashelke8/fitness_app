@@ -9,6 +9,7 @@ import About from '../aboutUs/About';
 import Community from '../CommunityServices/Community';
 import Blogs from '../Blogs/Blogs';
 import Contact_enquiry from '../Contact/Contact_enquiry';
+import Footer from "../Contact/Footer";
 
 function Home() {
     return (
@@ -39,6 +40,7 @@ function Home() {
          <Community />
          <Blogs />
          <Contact_enquiry />
+         {/* <Footer/> */}
         
         </>
 

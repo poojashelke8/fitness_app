@@ -10,6 +10,7 @@ import Navbar from './Components/Home/Navbar';
 import Classes from './Components/Home/Classes';
 import Team from './Components/Home/Team';
 import CommPages from './Components/CommunityServices/CommPages';
+import Footer from './Components/Contact/Footer';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="community/:testId" element={<CommPages />} />
 
       </Routes>
+      <Footer/>
       {/* <Contact_enquiry /> */}
       {/* <Amenities /> */}
       {/* <About />

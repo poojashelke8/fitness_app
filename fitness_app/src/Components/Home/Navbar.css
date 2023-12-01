@@ -6,6 +6,12 @@
     /* background-image:url(C:\Users\Shree\Desktop\fitness_app\fitness_app\src\Components\Images\Home.jpg) ; */
     background-size: cover;
     backdrop-filter: blur(10px);
+    z-index: 1;
 
 
 }
+/* .navhead{
+    background-color: pink;
+    display: flex;
+    align-items:flex-start;
+} */

@@ -1,4 +1,18 @@
-.Classes{
+.classes{
     height:500px;
     background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.classes_1{
+    height: 400px;
+    width: 350px;
+    /* float:right; */
+    border-radius: 20px;
+    background-color: rgb(164, 164, 252);
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }

@@ -14,7 +14,6 @@ const CommPages = () => {
         1: {
             name: "Mindfulness",
             desc: `Mindfulness is a practice that encourages individuals to be fully present in the moment, fostering a heightened awareness of their thoughts, feelings, and surroundings. 
-            It encompasses a state of non-judgmental attention, promoting mental clarity, emotional balance, and overall well-being. At my gym, the commitment to holistic health extends beyond physical fitness, and mindfulness is recognized as a crucial component of a comprehensive well-being approach. The gym has implemented mindfulness programs that cater to the diverse needs and preferences of its members. 
             From dedicated meditation spaces equipped with calming ambiance to regular mindfulness classes led by experienced instructors, the gym provides ample opportunities for individuals to integrate mindfulness practices into their fitness routines. 
             Additionally, the gym has incorporated mindfulness elements into its physical training sessions, emphasizing the importance of being present and focused during exercises, thereby enhancing the mind-body connection. By prioritizing mindfulness, my gym not only aims to improve the mental resilience of its members but also fosters an environment where individuals can experience a deeper sense of self-awareness and tranquility alongside their physical fitness journey.`,
             images: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1399&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -36,12 +35,9 @@ const CommPages = () => {
     }
 
     const item = data[testId]
-    console.log(item)
     return (
-        <div className='pages'>
-            <h2 id='pagesHead'>
-                {item.name}
-            </h2>
+        <div className='pagesData'>
+            <h2 id='pagesHead'>{item.name}</h2>
             <div className='pageContent'>
                 <p id='content1'>{item.desc}</p>
                 {item.images && <img id="content2" src={process.env.PUBLIC_URL + item.images} alt={item.name} />}

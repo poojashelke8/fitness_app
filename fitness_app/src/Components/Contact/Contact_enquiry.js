@@ -43,7 +43,7 @@ function Contact_enquiry() {
                     
 
                 </div>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
             
         </>

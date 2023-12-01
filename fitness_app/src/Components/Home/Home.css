@@ -1,12 +1,9 @@
 *{
     margin: 0;
     color: white;
-    
-    
-
 }
 .home{
-    height: 650px;
+    height: 580px;
     width:100%;
     /* margin: 0 auto; */
     background-color: burlywood;
