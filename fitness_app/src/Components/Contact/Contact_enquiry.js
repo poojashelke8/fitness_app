@@ -6,7 +6,6 @@ function Contact_enquiry() {
     return (
         <>
             <div className="enquiry">
-                Contact and enquiry
                 <div className="enquiry_form">
                     <h3>WE WANT TO HEAR FROM YOU</h3>
                     <h4>Please fill out our form and we will get in touch shortly</h4>
@@ -38,7 +37,7 @@ function Contact_enquiry() {
                                 data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
 
                         </div>
-                        <button id="send_btn">Send Message</button>
+                        <button className="btn">Send Message</button>
                     </form>
                     
 

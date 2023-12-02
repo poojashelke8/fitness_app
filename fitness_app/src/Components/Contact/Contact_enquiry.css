@@ -100,7 +100,7 @@
 .footer_2{
     height:200px;
     width:300px;
-    color: black;
+    /* color: black; */
     /* background-color: pink; */
     
 }
@@ -116,9 +116,9 @@
     /* margin-top:30px ; */
 }
 .copy_rights{
-    height:50px;
     background-color: white;
     color: black;
-    margin-top: 10px;
-    margin-left: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }

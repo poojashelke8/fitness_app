@@ -23,21 +23,13 @@
     align-items: center;
 }
 
-.navContent{
-    height:70px;
-    width:700px;
-    /* background-color: cornflowerblue; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-#memberbtn{
-    height:40px;
-    border: 2px solid black;
+.btn{
+    /* height: 40px; */
+    border: none;
     background-color: black;
-    border-radius: 9px;
+    border-radius: 6px;
+    /* outline: none; */
+    padding: 12px 9px;
 }
 
 .mainContent{

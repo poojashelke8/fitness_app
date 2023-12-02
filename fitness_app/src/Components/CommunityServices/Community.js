@@ -10,7 +10,7 @@ function Community() {
     return (
         <div className="community">
             <div className="left">
-                <h1>Body and Soul fitness</h1>
+                <h1>Body <br/> and <br/>Soul <br/>fitness</h1>
             </div>
             <div className="right">
                 {

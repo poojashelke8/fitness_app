@@ -14,7 +14,7 @@ function About() {
                     fueled by the unwavering support and positive feedback we receive. 
                     We are deeply grateful for the trust you've placed in our services, 
                     and we remain committed to delivering excellence that surpasses your expectations.</p><br/>
-                <button  id="memberbtn">Read more</button>
+                <button  className="btn">Read more</button>
             </div>
             <div className="aboutText2">
                 <h2>Get in shape and training at the gym or home.</h2>

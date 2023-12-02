@@ -43,7 +43,7 @@ function Blogs() {
                     </div>
                 </div>
             </div>
-            <button id="blogbtn">Check blogs</button>
+            <button className="btn">Check blogs</button>
         </div>
     )
 }
