@@ -16,7 +16,7 @@ function Community() {
                 {
                     categories.map((test,index=0) => {
                         return (
-                            <div className="rightContent" key={index}>
+                            <div className="rightContent" key={index}> 
                                 <Link to={`community/${index}`
                                 }>{test}
                                 </Link>

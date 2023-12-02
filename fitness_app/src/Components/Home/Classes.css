@@ -1,18 +1,23 @@
-.classes{
-    height:500px;
-    background-color: palevioletred;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .classes_1{
     height: 400px;
-    width: 350px;
-    /* float:right; */
-    border-radius: 20px;
-    background-color: rgb(164, 164, 252);
+    margin-top: 30px;
+    color: black;
+}
+.class_head{
+    color: black;
+}
+.classes_2{
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-around;
+}
+.class_desc{
+    width:500px;
+    text-align: justify;
+    color: black;
+}
+.class_img{
+    height:300px;
+    width:300px;
 }
