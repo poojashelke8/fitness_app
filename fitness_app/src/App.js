@@ -11,7 +11,7 @@ import Classes from './Components/Home/Classes';
 import Team from './Components/Home/Team';
 import CommPages from './Components/CommunityServices/CommPages';
 import Footer from './Components/Contact/Footer';
-import BlogsMain from './Components/Blogs/BlogsMain';
+// import BlogsMain from './Components/Blogs/BlogsMain';
 
 
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="about" element={<About />} />
 
         <Route path="community/:testId" element={<CommPages />} />
-        <Route path="blogsmain" element={<BlogsMain />} />
+        {/* <Route path="blogs" element={<Blogs />} /> */}
 
       </Routes>
       <Footer/>
